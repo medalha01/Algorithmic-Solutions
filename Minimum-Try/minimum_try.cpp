@@ -114,7 +114,7 @@ int main()
     // Measure and print the execution time.
     auto timer_end = std::chrono::high_resolution_clock::now();
     auto execution_time = std::chrono::duration_cast<std::chrono::microseconds>(timer_end - timer_start).count();
-    std::cout << "Execution time: " << execution_time << " milliseconds" << std::endl;
+    std::cout << "Execution time: " << execution_time << " microseconds" << std::endl;
 
     return 0;
 }
