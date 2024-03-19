@@ -6,7 +6,6 @@
 #include <numeric>
 #include <chrono>
 #include <climits>
-#include <algorithm> // For std::find
 
 bool is_number_in_vector(const std::vector<int> &vec, int number)
 {
@@ -89,8 +88,6 @@ int min_operations_to_make_permutation(const std::vector<int> *original_array)
 
     return total_operations;
 }
-
-#include <chrono> // Include the <chrono> header file
 
 int main()
 {
