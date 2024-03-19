@@ -26,6 +26,10 @@ def min_operations_to_make_permutation(arr: List[int]) -> int:
 
     total_operations = 0
 
+    for exceeding_number in exceeding_numbers:
+        print(f"Exceeding number: {exceeding_number}")
+    for missing_number in missing_numbers:
+        print(f"Missing number: {missing_number}")
     # Pair each exceeding number with the closest missing number
     for exceeding_number in exceeding_numbers:
         min_difference = None
